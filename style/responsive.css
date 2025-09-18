@@ -1,0 +1,295 @@
+@media (max-width: 480px) {
+
+  /*
+    ======================================================
+    RESET E ESTILOS GLOBAIS
+    ======================================================
+  */
+  :root {
+    font-size: 14px;
+  }
+
+  /*
+    ======================================================
+    HEADER E NAVEGAÇÃO
+    ======================================================
+  */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+  }
+
+  nav .logo img {
+    height: 1.5rem;
+    margin-right: 0;
+  }
+
+  .nav-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid hsl(176, 68%, 64%);
+    border-radius: 1.5rem;
+  }
+
+  /*
+    ======================================================
+    SEÇÃO HERO
+    ======================================================
+  */
+  .hero {
+    flex-direction: column;
+    padding: 2rem 1.5rem 100px;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+
+  .hero-content {
+    padding: 0 0.5rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  #hero-h1 {
+    min-width: 100%;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+
+  #hero-h1 h1 {
+    line-height: 3rem;
+    font-size: 1.8rem;
+  }
+
+  .hero-content #hero-p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .hero-content #hero-p p {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    padding: 1rem 3rem;
+  }
+
+  /*
+    ======================================================
+    SEÇÃO FEATURES
+    ======================================================
+  */
+  .features {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 5rem;
+    padding: 3rem 1.5rem;
+  }
+
+  .features article h2 {
+    font-size: 1.5rem;
+  }
+
+  .features article p {
+    font-size: 0.9rem;
+  }
+
+  /*
+    ======================================================
+    SEÇÃO PRODUCTIVITY
+    ======================================================
+  */
+  .productivity {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+
+  .productivity .image,
+  .productivity .text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .productivity .text #container-h2 h2 {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .productivity .text #container-h2 {
+    /* border: 1px solid white; */
+    width: 100%;
+  }
+
+  .productivity .text p {
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .productivity #container-link-produc {
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    text-align: justify;
+    width: 44%;
+  }
+
+  .productivity #container-link-produc img {
+    display: block;
+  }
+
+  .productivity .text a {
+    color: hsl(176, 68%, 64%);
+  }
+
+  /*
+    ======================================================
+    SEÇÃO TESTIMONIALS
+    ======================================================
+  */
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 2rem;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 13rem;
+  }
+
+  #container-bg-detail {
+    left: 2.5rem;
+    top: 6.3rem;
+    width: 3rem;
+  }
+
+  .testimonials article {
+    width: 100%;
+  }
+
+  .testimonials article .container-img {
+    width: 2.5rem;
+  }
+
+  /*
+    ======================================================
+    SEÇÃO CTA
+    ======================================================
+  */
+  .cta {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    background-color: hsl(217, 28%, 15%);
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.5rem;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.2), 5px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    top: 0%;
+  }
+
+  .cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta p {
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .cta form {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  .cta input {
+    width: 100%;
+    min-width: unset;
+    padding: 0.8rem 4rem;
+  }
+
+  .cta .container-button button {
+    width: 100%;
+    padding: 0.8rem 5.5rem;
+  }
+
+  /*
+    ======================================================
+    RODAPÉ
+    ======================================================
+  */
+  footer {
+    padding: 2rem 1.5rem;
+  }
+
+  #footer-main-container {
+    margin-top: 16rem;
+  }
+
+  #footer-content-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    padding-top: 1rem;
+  }
+
+  #footer-main-container #footer-content-container #locate {
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  #footer-main-container #footer-content-container #locate p {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  #footer-main-container #footer-content-container #locate img {
+    width: 1rem;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  #footer-main-container #footer-content-container .footer-links {
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  #footer-main-container #footer-content-container .footer-links.footer-links li:nth-child(5) {
+    margin-top: 1.5rem;
+  }
+
+
+  .socials {
+    width: 100%;
+    justify-content: center;
+  }
+}

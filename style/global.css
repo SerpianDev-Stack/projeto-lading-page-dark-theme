@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: hsl(218, 28%, 13%); /* Navy 900 (main background) */
+  font-family: 'Open Sans', sans-serif; /* Considerando que é o corpo */
+  color: hsl(0, 0%, 100%); /* Cor do texto padrão branco */
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
