@@ -296,6 +296,8 @@ nav .logo img {
   /* flex-wrap: wrap; */
 }
 
+
+
 .cta h2 {
   margin-bottom: 2rem;
   font-family: "Raleway", sans-serif;
@@ -310,19 +312,31 @@ nav .logo img {
   padding: 0 8rem;
 }
 
-.cta input {
-  height: 3rem;
-  width: 30rem;
-  border-radius: 2rem;
-  border: none;
-  padding-left: 3rem;
-  margin-bottom: 0.5rem;
-}
 
 .cta form {
   display: flex;
   gap: 3rem;
+  width: 100%;
 }
+
+.cta form .content-input{
+  width: 100%;
+}
+
+.cta form .content-input #email {
+  height: 3rem;
+  width: 100%;
+  border-radius: 2rem;
+  border: none;
+  padding-left: 3rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.cta .container-button{
+  width: 50%;
+}
+
 
 .cta .container-button button {
   padding: 1rem 3rem;
@@ -335,6 +349,7 @@ nav .logo img {
   font-size: 0.9rem;
   cursor: pointer;
   flex-shrink: 0;
+  width: 100%;
 }
 
 .cta button:hover {
